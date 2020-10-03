@@ -1,0 +1,21 @@
+aside {
+    float: right;
+    /* margin: 50px 50px 50px 50px; */
+    width: 30%;
+    padding: 10px 30px;
+    background-color: rgb(88, 88, 88);
+}
+
+aside ul{
+    padding: 0;
+    align-content: center;
+}
+
+aside h1{
+    text-align: center;
+    color: white;
+}
+
+aside h2{
+    text-align: center;
+}

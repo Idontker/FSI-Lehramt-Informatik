@@ -1,0 +1,15 @@
+section {
+    margin: 0% 2%;
+    width: 60%;
+}
+
+section ul {
+    padding: 10px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+section ul li {
+    margin: auto auto;
+}
+
