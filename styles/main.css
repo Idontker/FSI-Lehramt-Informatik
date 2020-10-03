@@ -2,7 +2,12 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    background-color: darkcyan;
+    background-color: #016b6b;
+    background-image: url("../sources/tb.jpg");
+    background-image: url("../sources/bb.jpg");
+    background-image: url("../sources/gb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 a {
