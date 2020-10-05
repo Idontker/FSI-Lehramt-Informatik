@@ -60,14 +60,15 @@ h4 {
         position: absolute;
         right: 0;
         top: 6vh;
-        height: 94vh;
+        height: 85vh;
         width: 100%;
-        background-color: darkcyan;
+        background-color: rgb(1, 107, 107);
         display: flex;
         flex-direction: column;
         align-items: center;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        padding: 2.5vh 0;
     }
     main{
         display: none;
@@ -78,8 +79,11 @@ h4 {
     }
     
     .nav-links a{
-
         font-size: 35px;
+        border-style: solid;
+        border-color: rgb(226, 226, 226);
+        box-shadow: -1vh 2vh 1vh rgba(0, 0, 0, 0.4);
+        padding: 3vh;
     }
 
     .burger{
