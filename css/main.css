@@ -30,10 +30,18 @@ main {
     margin: 8vh 3.5%;
 }
 
+main h1 {
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+main p {
+}
+
 main a {
     text-decoration: none;
     color: darkblue;
-    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: bold;
 }
 
 
