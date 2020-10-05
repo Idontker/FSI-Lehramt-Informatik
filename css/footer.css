@@ -4,7 +4,7 @@ footer {
     top: 84vh;
     width: 100vw;
     height: 16vh;
-    background-color: darkcyan;
+    background-color: var(--secondary-bg-color);
     text-align: center;
     color:black;
 

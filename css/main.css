@@ -1,3 +1,12 @@
+
+:root{
+
+    --dark-bg-color: #0D5259;
+    --main-bg-color: #026873;
+    --secondary-bg-color: #218691;
+    --white: rgb(226, 226, 226); 
+}
+
 *{
     margin:0;
     padding: 0;
@@ -7,7 +16,7 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: #073838;/* 
+    background-color: var(--dark-bg-color);/* 
     background-image: url("../sources/tb.jpg");
     background-image: url("../sources/bb.jpg");
     background-image: url("../sources/gb.jpg"); */
