@@ -11,13 +11,21 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 1.5vh;
 }
+footer h2{
+    text-transform: uppercase;
+    font-size: 2vh;
+    padding-bottom:  1.5vh;
+    padding-top: 2vh;
+}
+
 
 footer div{
     padding-left: 1vh;
     padding-right: 1vh;
     height: 100%;
-    color: rgb(226, 226, 226);
+    color: var(--white);
     text-align: left;
 }
 
@@ -25,6 +33,8 @@ footer div{
     height: 100%;
     width: auto;
 }
+
+
 
 .box{
     display: flex;
@@ -36,21 +46,11 @@ footer div{
 }
 
 .box a{
-    color: rgb(226, 226, 226);
+    color: var(--white);
     text-decoration: none;
     font-size: 1.5vh;
 }
 
-footer h2{
-    text-transform: uppercase;
-    font-size: 2vh;
-    padding-bottom:  1.5vh;
-    padding-top: 2vh;
-}
-
-footer {
-    font-size: 1.5vh;
-}
 
 @media screen and (max-width: 760px){
     footer{
