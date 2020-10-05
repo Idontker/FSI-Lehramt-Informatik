@@ -3,7 +3,49 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 4vh;
-    background-color: darkgray;
+    height: 16vh;
+    background-color: darkcyan;
     text-align: center;
+    color:black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer div{
+    height: 100%;
+    color: rgb(226, 226, 226);
+    text-align: left;
+}
+
+.footer-left img {
+    height: 100%;
+    width: auto;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.box li{
+    padding-bottom: 0.3vh;
+}
+
+.box a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    font-size: 1.5vh;
+}
+
+footer h2{
+    text-transform: uppercase;
+    font-size: 2vh;
+    padding-bottom:  1.5vh;
+    padding-top: 3vh;
+}
+
+footer {
+    font-size: 1.5vh;
 }

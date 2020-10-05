@@ -12,8 +12,8 @@ nav{
 
 h4 {
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 18px;
+    letter-spacing: 0.2vh;
+    font-size: 1.8vh;
     color: rgb(226, 226, 226);
 }
 
@@ -28,7 +28,7 @@ h4 {
     text-decoration: none;
     color: rgb(226, 226, 226);
     font-weight: bold;
-    font-size: 13px;
+    font-size: 1.5vh;
 }
 
 .burger{
@@ -60,7 +60,7 @@ h4 {
         position: absolute;
         right: 0;
         top: 6vh;
-        height: 85vh;
+        height: 73vh;
         width: 100%;
         background-color: rgb(1, 107, 107);
         display: flex;
