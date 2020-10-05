@@ -22,7 +22,7 @@ body {
     background-image: url("../sources/gb.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 main {
