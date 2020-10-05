@@ -1,10 +1,8 @@
-
 :root{
-
-    --dark-bg-color: #0D5259;
+    --dark-bg-color: #0D5259; 
     --main-bg-color: #026873;
     --secondary-bg-color: #218691;
-    --white: rgb(226, 226, 226); 
+    --white: rgb(245, 245, 245); 
 }
 
 *{
@@ -26,16 +24,17 @@ body {
 }
 
 main {
-    width: 90%;
-    margin: 8vh 3.5%;
+    width: auto;
+    margin-top: 8vh;
+    margin-left: 2vw;
+    margin-right: 1vw ;
+    margin-bottom: 20vh;
+    height: 80vh;
 }
 
 main h1 {
     margin: 20px;
     margin-bottom: 10px;
-}
-
-main p {
 }
 
 main a {
@@ -44,7 +43,13 @@ main a {
     font-weight: bold;
 }
 
-
 li{
     list-style: none;
+}
+
+section{
+    height: 100%;
+    padding-right: 2vw;
+    border-right: 2px solid var(--white) ;
+
 }
