@@ -7,32 +7,23 @@
     <title>FSI Lehramt Informatik - FAU Erlangen-Nuernberg</title>
     <meta name="FSI Lehramt Informatik" content="Alles rund um das Lehramt Informatik in der FAU.">
 
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/aside.css">
-    <link rel="stylesheet" href="styles/card.css">
-    <link rel="stylesheet" href="styles/section.css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
-    <nav>
-        <div>
-            <h4>The Logo</h4>
-        </div>
-        <!-- <img class="logo flexdisplay" src="sources/LogoOld.png" alt="FSI Lehramt Informatik Logo - FAU">-->
-        <ul class="nav-links">
-            <li><a href="#">Aktuelles</a></li>
-            <li><a href="#">Erstes Senester</a></li>
-            <li><a href="#">Kontakt</a></li>
-            <li><a href="#">Impressum</a></li>
-        </ul>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
+   <!--Navigation bar-->
+    <nav id="nav"> 
+
     </nav>
+    <!--end of Navigation bar-->
+
 
     <main>
         <aside>
@@ -92,9 +83,18 @@
         </section>
     </main>
 
+    <!--footer bar-->
+    <div id="footer"> 
 
-    <footer>Jegliche Inhalte der Seite wurden von Athanassios Karol Bakas erstellt. - Erlangen den 03.10.2020 ©</footer>
+    </div>
+    <!--end of Navigation bar-->
 
+    <script>
+        $(function(){
+            $("#nav").load("nav.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
     <script src="navbar.js"></script> 
 </body>
 
