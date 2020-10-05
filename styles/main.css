@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -8,18 +13,20 @@ body {
     background-image: url("../sources/gb.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-a {
+main {
+    width: 90%;
+    margin: 8vh 3.5%;
+}
+
+main a {
     text-decoration: none;
     color: darkblue;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-main {
-    width: 90%;
-    margin: 0 3.5%;
-}
 
 li{
     list-style: none;

@@ -8,6 +8,7 @@
     <meta name="FSI Lehramt Informatik" content="Alles rund um das Lehramt Informatik in der FAU.">
 
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/aside.css">
     <link rel="stylesheet" href="styles/card.css">
     <link rel="stylesheet" href="styles/section.css">
@@ -16,8 +17,22 @@
 
 <body>
     <nav>
+        <div>
+            <h4>The Logo</h4>
+        </div>
+        <!-- <img class="logo flexdisplay" src="sources/LogoOld.png" alt="FSI Lehramt Informatik Logo - FAU">-->
+        <ul class="nav-links">
+            <li><a href="#">Aktuelles</a></li>
+            <li><a href="#">Erstes Senester</a></li>
+            <li><a href="#">Kontakt</a></li>
+            <li><a href="#">Impressum</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
     </nav>
-
 
     <main>
         <aside>
@@ -25,7 +40,7 @@
             <ul>
                 <li class="card">
                     <h2>Ersti-Flyer</h2>
-                    <a href="#">Download hier</a>
+                    <a href="sources/ErstiFlyer.pdf" download>Download hier</a>
                 </li>
                 <li class="card">
                     <h2>Offenes Ohr</h2>
@@ -80,6 +95,8 @@
 
     <footer>Jegliche Inhalte der Seite wurden von Athanassios Karol Bakas erstellt. - Erlangen den 03.10.2020 ©</footer>
 
+    <script src="navbar.js"></script> 
 </body>
+
 
 </html>
