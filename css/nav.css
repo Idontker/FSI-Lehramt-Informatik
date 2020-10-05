@@ -51,8 +51,12 @@ h4 {
 }
 
 @media screen and (max-width: 760px){
+    html{
+        overflow-x: hidden;
+    }
     body{
-        overflow: hidden;
+        overflow-x: hidden;
+        position: relative;
     }
 
 

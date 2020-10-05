@@ -5,12 +5,12 @@
 
 body {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0;
-    background-color: #016b6b;
+    background-color: #073838;/* 
     background-image: url("../sources/tb.jpg");
     background-image: url("../sources/bb.jpg");
-    background-image: url("../sources/gb.jpg");
+    background-image: url("../sources/gb.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Courier New', Courier, monospace;
@@ -31,6 +31,3 @@ main a {
 li{
     list-style: none;
 }
-
-
-/*  */

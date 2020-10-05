@@ -1,8 +1,8 @@
 footer {
     position: fixed;
     left: 0;
-    bottom: 0;
-    width: 100%;
+    top: 84vh;
+    width: 100vw;
     height: 16vh;
     background-color: darkcyan;
     text-align: center;
@@ -14,6 +14,8 @@ footer {
 }
 
 footer div{
+    padding-left: 1vh;
+    padding-right: 1vh;
     height: 100%;
     color: rgb(226, 226, 226);
     text-align: left;
@@ -30,7 +32,7 @@ footer div{
 }
 
 .box li{
-    padding-bottom: 0.3vh;
+    padding-bottom: 1vh;
 }
 
 .box a{
@@ -43,9 +45,19 @@ footer h2{
     text-transform: uppercase;
     font-size: 2vh;
     padding-bottom:  1.5vh;
-    padding-top: 3vh;
+    padding-top: 2vh;
 }
 
 footer {
     font-size: 1.5vh;
+}
+
+@media screen and (max-width: 760px){
+    footer{
+        padding: 0vh 2vh;
+    }
+
+    .footer-left {
+        display: none;
+    }
 }
