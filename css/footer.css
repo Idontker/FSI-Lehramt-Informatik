@@ -55,10 +55,14 @@ footer div{
 
 @media screen and (max-width: 760px){
     footer{
-        padding: 0vh 2vh;
+        padding: 0vh 5vw;
     }
 
     .footer-left {
         display: none;
+    }
+
+    .footer-right, .footer-right{
+        width: 45vw;
     }
 }
