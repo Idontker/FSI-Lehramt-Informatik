@@ -22,52 +22,34 @@
     </nav>
 
     <main>
-        <aside>
-            <h1>Aktuelles</h1>
-            <ul>
-                <li class="card">
-                    <h2>Ersti-Flyer</h2>
-                    <a href="sources/ErstiFlyer.pdf" download>Download hier</a>
-                </li>
-                <li class="card">
-                    <h2>Offenes Ohr</h2>
-                    Jeden Mittwoch ohne Anmeldung von 18:00 - 19:00 auf unserem Discord!
-                </li>
-                <li class="card">
-                    <h2>Erstsemestereinführung</h2>
-                    Am Dienstag den 03.11.2020 um TBA findet eine Erstsemestereinführung per Zoom statt. Der Link
-                    wurde per Mail verteilt. Falls du diese nicht erhalten hast, kannst du uns gerne
-                    anschreiben.
-                </li>
-            </ul>
-        </aside>
-
-        <section>
-            <!--             <img class="logo flexdisplay" src="sources/LogoOld.png" alt="FSI Lehramt Informatik Logo - FAU">-->
-            <ul>
-                <li>
-                    <a class="card" href="https://discord.com/invite/tYyfgW5">DISCORD</a>
-                </li>
-                <li>
-                    <a class="card" href="mailto:fsi-lehramt-informatik@fau.de">E-Mail</a>
-                </li>
-            </ul>
-            <div class="card">
-
-                <h1> Hallo Du, </h1>
-                <p></p>
-                <p>Wir freuen uns, dass du bei uns vorbei schaust. Wir sind die FSI Lehramt Informatik und setzen uns für alle Lehramt Informatik Studierenden ein :)
-                </p>
-                <p> Dies kann ganz unterschiedlich aussehen: Organisation von Stammtischen, Unterstützung bei der Fächerwahl sowie bei der Bewältigung von Hürden beim Studieren und die Repräsentation der Studierenden und Interessen gegenüber Professor*innen und Dozent*innen.
-                </p>
-                <h1>Bist du Erstsemestler*in?</h1>
-                <p>
-                    Dann haben wir genau das Richtige für dich! Der brandneue Ersti-Flyer. Du kannst ihn einfach <a href="sources/ErstiFlyer.pdf" download>hier</a> runterladen. Dieser versorgt dich mit allen wichtigen Informationen rund um den Studienstart. Falls du doch noch Fragen haben solltest, melde dich bitte bei uns und frage nach. Scheue dich also nicht, uns per Mail oder auf unserem Discord-Server (<a href="https://discord.gg/ne78X9W" target="_blank">discord.gg/ne78X9W</a>)zu
-                    kontaktieren. Wir sind gerne für dich da!
-                </p>
-            </div>
-
-        </section>
+        <div class="card">
+            <h1> Hallo Du, </h1>
+            <p></p>
+            <p>Wir freuen uns, dass du bei uns vorbei schaust. Wir sind die FSI Lehramt Informatik und setzen uns für alle Lehramt Informatik Studierenden ein :)
+            </p>
+            <p> Dies kann ganz unterschiedlich aussehen: Organisation von Stammtischen, Unterstützung bei der Fächerwahl sowie bei der Bewältigung von Hürden beim Studieren und die Repräsentation der Studierenden und Interessen gegenüber Professor*innen und Dozent*innen.
+            </p>
+        </div>
+        <ul>
+            <li class="card">
+                <div class="center">
+                    <h2>Unser Discord</h2>
+                </div>
+                Hier findest du unsere FSI-Sitzung, Spieleabende, Informationen, gemeinsames Lernen und Hilfe.
+                <div class="center link">
+                    <p><a href="https://discord.gg/ne78X9W">discord.gg/ne78X9W</a></p>
+                </div>
+            </li>
+            <li class="card">
+                <div class="center">
+                    <h2>Schreib uns eine Mail!</h2>
+                </div>
+                <p>Dir liegt etwas auf dem Herzen? Kein Problem schreib uns einfach eine Mail an</p>
+                <div class="center link">
+                    <a  href="mailto:fsi-lehramt-informatik@fau.de">fsi-lehramt-informatik@fau.de</a>
+                </div>
+            </li>
+        </ul>
     </main>
 
     <footer id="footer-placeholder"> 
@@ -80,8 +62,7 @@
     <script>
         navLoad();
         footerLoad();
-        setTimeout(() => { navSlide(); }, 2000);
-        
+        navSlide();
     </script>
 </body>
 

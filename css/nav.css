@@ -75,9 +75,6 @@ h4 {
         transition: transform 0.5s ease-in;
         padding: 2.5vh 0;
     }
-    main{
-        display: none;
-    }
 
     .nav-links li{
         opacity: 0;
