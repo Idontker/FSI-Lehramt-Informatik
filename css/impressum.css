@@ -1,3 +1,12 @@
+h1{
+    margin-top: 10vh;
+    margin-left: 10vw;
+    color: red;
+    font-size: 10vw;
+    font-style: bold;
+}
+/* Old stuff - might be usefull later? */
+
 main {
     width: 50vw;
     margin-top: 10vh;
