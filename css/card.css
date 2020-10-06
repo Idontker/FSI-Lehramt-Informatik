@@ -5,7 +5,7 @@
     /* border-radius: 10px 10px 25px 25px; */
     border-radius: 8px;
 
-    
+
     background-color: var(--secondary-bg-color);
-    color: var(--white);
+    color: var(--white); 
 }

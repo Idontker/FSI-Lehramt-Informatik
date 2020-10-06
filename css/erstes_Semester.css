@@ -1,27 +1,3 @@
-:root{
-    --dark-bg-color: #0D5259; 
-    --main-bg-color: #026873;
-    --secondary-bg-color: #218691;
-    --white: rgb(245, 245, 245); 
-}
-
-*{
-    margin:0;
-    padding: 0;
-}
-
-body {
-    width: 100%;
-    margin: 0;
-    background-color: var(--dark-bg-color);/* 
-    background-image: url("../sources/tb.jpg");
-    background-image: url("../sources/bb.jpg");
-    background-image: url("../sources/gb.jpg"); */
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 main {
     width: 50vw;
     margin-top: 10vh;
