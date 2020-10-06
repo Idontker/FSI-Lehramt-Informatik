@@ -21,3 +21,7 @@ body {
     background-repeat: no-repeat;
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+li{
+    list-style: none;
+}

@@ -17,10 +17,6 @@ main a {
     font-weight: bold;
 }
 
-li{
-    list-style: none;
-}
-
 main ul{
     display: flex;
     flex-direction: row;
